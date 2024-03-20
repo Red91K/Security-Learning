@@ -263,8 +263,8 @@ Most often, Exploit Kits exploit vulnerabilities in web browsers to install mali
 ### RDP exploits
 **RDP** (Remote Desktop Protocol) - protocol developed by microsoft, provides GUI to connect with another computer via a network connection (listens @ port 3389)
 
-- In the past few years, cybercriminals have abused weak RDP credentials and even used social engineering to carry out attacks
-- RDP vulnerabilities exist, allowing attackers to penetrate even well-secured systems (ex: BlueKeep)
+- In the past few years, cybercriminals have abused weak RDP credentials and used social engineering to carry out attacks
+- Additionally, vulnerabilities in the RDP protocol exist, allowing attackers to penetrate even well-secured systems (ex: BlueKeep)
 -> Expect cybercriminals continue to abuse RDP and RDP vulnerabilities
 
 ## Mobile
@@ -287,10 +287,10 @@ Most often, Exploit Kits exploit vulnerabilities in web browsers to install mali
 -> Expect criminals to add sophisticated defences to their malware, such as obfuscation, analysis prevention measures, etc
 
 ### RCE exploits
-**RCE** (Remote Code Execution) - allows a attacker to remotely execute code on a computer
-Ex: SQL injection can be used to inject malicious code, and then the code will be remotely executed
-**Botnet** - network of hijacked computers that are remotely controlled by a attacker
-RCEs create Botnets
+- **RCE** (Remote Code Execution) - allows a attacker to remotely execute code on a computer
+- Ex: SQL injection can be used to inject malicious code, and then the code will be remotely executed
+- **Botnet** - network of hijacked computers that are remotely controlled by a attacker
+- Threat Actors exploit vulnerabilities like RCE to creat Botnets
 
 -> As new smart devices are introduced into the market, new vulnerabilities will arise, increasing the number of RCE attacks
 -> Makes Botnets even easier to build
