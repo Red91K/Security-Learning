@@ -1,3 +1,26 @@
+
+# Summary
+- The Internet is a **broad set of interconnected networks** that exchange information using a shared set of communication protocols
+- **encapsulation** accounts for the variety of communication protocols in use, by allowing us to send data in one protocol over another protocol. 
+- the **OSI Model** is a conceptual model describing data transfer. Information (headers & protocol data) is added as we go **down** the model.
+
+| Protocol     | Description                                                                           | Examples                             |   
+| ------------ | ------------------------------------------------------------------------------------- | ------------------------------------ | 
+| Application  | Presents Data to the User (below the actual "application")                            | HTTP, DNS                            |     
+| Presentation | Formats Data for Application Layer                                                    | encryption, decryption, translation  |    
+| Session      | Opens, Maintains, Closes end-2-end connections                                        | Web Sockets                          |   
+| Transport    | Ensures Timely & Accurate end-2-end communication, inter-network flow & error control | TCP, UDP                             |     
+| Network      | Facilitates Inter-Network communication, routing & addressing                         | IP, BGP                              |    
+| Data Link    | Facilitates Intra-Network communication, intra-network flow & error control           | 802.11, 802.3                        |     
+| Physical     | Bits transferred over physical medium                                                 | Wires, Cables, Terrestrial Microwave |    
+- Governance is the human **process of managing various technical, informational, and operational issues**
+- Governing the Internet involves **various approaches, stakeholders, and levels of governance**, like.....
+	- specific technical standards (NIST 800-53, PCI DSS) vs high level strategies (executive orders, National Cyber Strategy)
+	- protecting buisnesses from cyberattacks vs protecting individual citizens from violations of privacy
+	- laws and regulations at the national level (GDPR, HIPAA, FTCA) vs policies within an organization
+- Effective governance is necessary because of the increasing importance of information technology in our world. 
+
+
 # L1 - How Data Moves: Encapsulation
 - Internet is a broad set of interconnected networks
 - WWW sits on top of the internet
