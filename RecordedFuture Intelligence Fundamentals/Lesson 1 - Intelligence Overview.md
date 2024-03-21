@@ -1,3 +1,18 @@
+# Key Takeaways
+> The **decision advantage** that intelligence provides is crucial to defending against today's threats that continue to evolve in volume and sophistication
+
+> **Security** is the process of defending assets against *known threats*. **We cannot defend a system against a threat we do not understand.** Therefore, **Intelligence**--the collection, analysis, and dissemination of information that enables better decision-making and effective action--is a critical part of security.
+
+> **Actionable intelligence** is intelligence that **points to a specific action**, and is **addressed to a specific audience.**
+
+> **TTPs (Tactics, Techniques, and Procedures)** are higher-level descriptions of adversary behaviour. It provides a framework for categorising the behavior of threat actors, helping security professionals identify, analyze, and respond to cybersecurity threats effectively.
+
+> `Risk = likelyhood x impact`. For risk to exist, there needs to be both a **vulnerability** (a flaw / lapse in defenses) and a **threat** (someone to exploit the vulnerability)
+
+> Intelligence is often confused with data and information. **Data** is **collected** from a variety of sources like endpoints, firewalls, and threat feeds. **Information** is **processed** by enriching data with context. **Intelligence** is **analyzed** from information--by forming connections between information, evaluating reliability, and considering higher level trends. 
+
+> Intelligence benefits a number of business functions, such as SecOps & IR teams, Risk teams, Vulnerability management teams, and executives.
+
 # Introduction
 Today, cyberattacks continue to increase in volume and sophistication. We need to approach security proactively instead of reactively. Such a proactive approach requires intelligence.
 A proactive approach involves
@@ -98,3 +113,33 @@ ex: Digital signatures use asymmetric-key cryptography to undeniably prove the s
 2. **360 degree visibility** - intelligence should be collected from a variety of internal and external sources
 3. **leverages automation** - to enable analysts to focus on big picture, intuitive analysis
 4. **aligned with specific goals** - intelligence programs should have well-defined, specific goals with respect to each stakeholder
+
+# Who benefits from Intelligence?
+-> A wide range of business functions benefit from intelligence
+
+## 1. SecOps & IR teams
+- The context that Intelligence provides acclerates and strengthens security operations and incident response
+- **SecOps:** 
+	- contextualized alerts allow faster triage
+	- operational intelligence about adversary TTPs leads to effective detections
+	-  context can eliminate false-positives that contribute to burnout
+- **IR:** 
+	-  understanding the adversary is crucial to properly responding to an intrusion
+	- intelligence about actions the adversary previously took to gain persistence & move laterally enable effective incident remediation
+	- intelligence gives a clearer picture of the overall intrusion and the root causes of the incident
+
+## 2. Risk Teams
+- Intelligence allows **better prioritisation** of risks & informs us of **effective mitigations** by giving us a better understanding of the threat
+
+## 3. Vulnerability Management Teams
+- intelligence about the severity, risk of exploitation, and about the potential impact of each vulnerability helps vulnerability management teams better prioritise and remediate vulnerabilities
+
+## 4. Fraud, Brand protection, IAM Teams
+- Each of these functions are impossible without actionable intelligence
+	- **Fraud** - identification of fraudulent transactions, emerging techniques, etc
+	- **Brand Protection** - identifying impersonations, typosquatting, misinformation, etc
+	- **Identity** - searching for leaked credentials in breach forums, identifying identity theft attack vectors, etc
+	
+## 5. Security Leaders & Business Executives
+- For high level decision makers, intelligence delivers a powerful **decision advantage**
+- Intelligence informs better business strategy, allows better allocation of funding, and helps executives deal with risk.
