@@ -3,13 +3,13 @@
 > Threat Actors are **individuals** or *groups* that intentionally attempt to jeapordize the confidentiality, integrity, and avaliablility of assets in cyberspace
 ->TAs have varying motivations, capabilities, and opportunities that in turn influence their targeting and the Tactics, Techniques, and Procedures that they use
 - Therefore, understanding the who, what and why of Threat Actors helps us understand how and what they will attack
-> **Hobbyists** are
+> **Hobbyists**  - **motivated by curiosity or ego**, Hobbyists are **unskilled** and unorganised threat actors that use widely available tools to achieve **unpredictable end objectives**
 
-> **Cybercriminals** are
+> **Cybercriminals** - motivated by direct or indirect **financial gain,** cybercriminals **range in their capabilities**. Sophisticated cybercriminal gangs can leverage their extensive funds to access custom tooling, target highly defended organizations, and skilled operators.  Cybercriminals **attack targets of opportunity**, prioritising those that will generate the greatest return on investment.
 
-> **Hacktivists** are
+> **Hacktivists** - Hacktivists are generally low skilled threat actors, **motivated by a perceived injustice**. They launch attacks that are generally unsophisticated, but **aim to achieve highly disruptive and publicised end effects.**
 
-> **Advanced Persistent Threats** are
+> **Advanced Persistent Threats** - APTs are highly capable threat actors that are **often affiliated with a nation-state**. APTs have access to **highly sophisticated capabilities** like zero day vulnerabilities and custom tools. APTs devote extensive resources towards **evading detection and maintaining access** as long as possible. They are **patient**, often dwelling in victim environments for months or years. APTs represent a **continuous, persistent threat** to organizations: they will continuously launch attakcs until they are successful.
 
 # Threat Actors
 - A cyberattack is orchestrated by a individual or group
@@ -140,6 +140,61 @@ Procedures - widely-distributed tools
 
 ## Notable Groups
 -  **Anonymous** 
--  **LulzSec**: LulzSec gained prominence in 2011 for its high-profile attacks on companies such as Sony, Nintendo, and media organizations like PBS. They often targeted entities for the "lulz" or laughs, but their actions also served to highlight security vulnerabilities in major systems.
+	- highly decentralized, international hackvisit group
+	- no leadership, anyone can take on the name anonymous
+		- therefore, attacks launched "by anonymous" vary greatly in both sophistication and motive
+	- probably the most well-publicized hacking group
+	- motivated by: anti-surveilance, anti-censorship, etc
+	- high profile targets, generally not so high-profile attacks
+
+-  **LulzSec**
+	- high-profile attacks on companies such as Sony, Nintendo, and media organizations like PBS. 
+	- unique in sometimes targeting entities for no other reason than ego
+	- DDOS & defacement are their go-to TTPs
+	- suddenly disbanded in 2011
 
 # Advanced Persistent Threats
+## intent
+- variety of motivations
+	- **financial gain**
+	- **national interests**
+		- supporting kinetic wars, infiltrating targets in preparation for conflicts, acquiring sensitive information for information operations
+	- **espionage**
+		- ex: identities of intelligence sources, policy documents ahead of diplomatic meetings, etc
+		- corporate espionage-ex: stealing trade secrets, technologies, etc
+
+## capability
+- well funded -> can access custom, sophisticated tooling & infrastructure
+- well staffed- technically skilled & experienced
+- time affluence
+- either tied to or part of a nation-state
+
+## opportunity
+- does not go after targets of opportunity, will often spend extensive resources targeting well-defended organizations
+
+
+## TTPs
+### reconnaissance 
+- generally standard techniques & procedures
+- however, time affluence allows APTs to evade risk of detection by spreading out reconnaisance activities (ex: spreading out port scans to evade IDS rules) 
+
+### weaponisation, delivery, exploitation, installation, c2
+- APTs can access high-sophistication tools like zero-day vulnerabilities, custom malware, custom post-ex tools, custom infrastructure
+- However, APTs will use commodity tools when more sophisticated tools are unnecessary or to **make attribution more difficult**
+
+### Actions on Objective
+- APTs will seek to move laterally and restart the kill chain, but with two key qualities in mind: **evading detection** and **maintaining access as long as possible**
+- Even after initial objectives have been fulfilled, APTs will maintain access in target systems for future use
+
+
+## Notable Groups
+- **Lazarus Group**
+	- North Korean TA, attrributed as part of the RGB
+	- Behind many high-profile attacks like Wannacry, Sony Hack, Dark Seoul
+	- Today, primarily targets entities in South Korea for espionage and disruption
+	- Conducts financially-motivated operations to finance their espionage & disruption campaigns
+
+- **Turla**
+	- attributed to Russia's FSB
+	- targets government, military, and research organizations for espionage in both western & eastern-bloc aligned countries
+	- uses watering hole & phishing attacks to gain intial access 
