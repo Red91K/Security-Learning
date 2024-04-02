@@ -47,7 +47,6 @@
 - In 2020, citrix notified its users that APT41 had compromised one of its products
 - This case study illustrates the concept of a supply chain attack--how compromising one organization (particularly one downstream of others) can lead to additional compromises upstream
 	- The citrix case study is part of one of the largest campaigns Chinese threat actors carried out in recent years. APT41 exploited vulnerabilities in various IT appliances like Citrix Netscaler, Cisco Routers, and Zoho ManageEngine Desktop Central to target western-bloc nations around the world. APT41 targeted multiple sectors including IT, security, telecommunications, oil, gas, aviation, and government
-- 
 
 
 | Kill Chain Stage     | APT41 Activity                                                                                                                                                                                                                                                                         |

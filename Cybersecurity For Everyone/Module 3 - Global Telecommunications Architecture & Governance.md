@@ -4,15 +4,15 @@
 - **encapsulation** accounts for the variety of communication protocols in use, by allowing us to send data in one protocol over another protocol. 
 - the **OSI Model** is a conceptual model describing data transfer. Information (headers & protocol data) is added as we go **down** the model.
 
-| Protocol     | Description                                                                           | Examples                             |   
-| ------------ | ------------------------------------------------------------------------------------- | ------------------------------------ | 
-| Application  | Presents Data to the User (below the actual "application")                            | HTTP, DNS                            |     
-| Presentation | Formats Data for Application Layer                                                    | encryption, decryption, translation  |    
-| Session      | Opens, Maintains, Closes end-2-end connections                                        | Web Sockets                          |   
-| Transport    | Ensures Timely & Accurate end-2-end communication, inter-network flow & error control | TCP, UDP                             |     
-| Network      | Facilitates Inter-Network communication, routing & addressing                         | IP, BGP                              |    
-| Data Link    | Facilitates Intra-Network communication, intra-network flow & error control           | 802.11, 802.3                        |     
-| Physical     | Bits transferred over physical medium                                                 | Wires, Cables, Terrestrial Microwave |    
+| Protocol     | Description                                                                           | Examples                             |
+| ------------ | ------------------------------------------------------------------------------------- | ------------------------------------ |
+| Application  | Presents Data to the User (below the actual "application")                            | HTTP, DNS                            |
+| Presentation | Formats Data for Application Layer                                                    | encryption, decryption, translation  |
+| Session      | Opens, Maintains, Closes end-2-end connections                                        | Web Sockets                          |
+| Transport    | Ensures Timely & Accurate end-2-end communication, inter-network flow & error control | TCP, UDP                             |
+| Network      | Facilitates Inter-Network communication, routing & addressing                         | IP, BGP                              |
+| Data Link    | Facilitates Intra-Network communication, intra-network flow & error control           | 802.11, 802.3                        |
+| Physical     | Bits transferred over physical medium                                                 | Wires, Cables, Terrestrial Microwave |
 - Governance is the human **process of managing various technical, informational, and operational issues**
 - Governing the Internet involves **various approaches, stakeholders, and levels of governance**, like.....
 	- specific technical standards (NIST 800-53, PCI DSS) vs high level strategies (executive orders, National Cyber Strategy)
