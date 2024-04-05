@@ -1,3 +1,4 @@
+# About This Course
 - Online course offered on Coursera by the University of Maryland.
 - Great non-technical introduction to cybersecurity
 - Consists of 6 modules:
