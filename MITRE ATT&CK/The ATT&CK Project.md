@@ -1,9 +1,10 @@
 # The Framework
 - Developed by the MITRE corporation
-- ATT&CK - Adversary Tactics, Techniques, and Common Knowledge
+- ATT&CK stands for Adversary Tactics, Techniques, and Common Knowledge
 
 # Projects
-## Tactics & Techniques
+## Matrixes
+- 3 Matrixes as of 2024: Enterprise, ICS, Mobile
 
 ## Groups
 
