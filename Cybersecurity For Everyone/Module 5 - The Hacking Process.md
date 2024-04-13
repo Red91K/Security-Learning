@@ -1,4 +1,17 @@
-## Hacking as a **Process**
+# Summary
+- Although we often hyper-fixate on the end effects of hacking, we should keep in mind that hacking is a **extended, complicated** process that begins far before the final impact is realized
+- By *dividing the Hacking process* into generalized stages, Frameworks like the Cyber Kill Chain and MITRE ATT&CK help us better understand how each action fits into the larger context of the entire process.
+- Although both frameworks feature a linear ordering of stages, it is important to understand that *cyberattacks do not always follow the linear, chronological order prescribed by these models* and that single cyberattacks often *feature multiple iterations of the framework*
+- **The Cyber Kill Chain** divides the hacking process into the following stages:
+	- Reconnaissance
+	- Weaponization
+	- Delivery
+	- Exploitation
+	- Installation
+	- Command & Control
+	- Actions on Objective
+
+# Hacking as a **Process**
 - Popular culture often depicts hacking incorrectly as
 	- a single event with immediate consequences
 	- conducted by a lone actor
@@ -8,7 +21,7 @@
 - Fundamentally, hacking is **the activities conducted by a threat actor aimed at achieving a particular goal**
 - We can use **frameworks** to group these actions into stages that allow us to better understand how each action fits into a larger context
 
-## The Cyber Kill Chain
+# The Cyber Kill Chain
 
 | Stage                | Description                                                                                                                                                                                                                                                                | Examples                                                                                                                                                                                                              |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

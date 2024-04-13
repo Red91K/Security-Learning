@@ -1,6 +1,7 @@
 # About This Course
 - Online course offered on Coursera by the University of Maryland.
-- Great non-technical introduction to cybersecurity
+- Great introductory course to cybersecurity
+- Non-technical in nature
 - Consists of 6 modules:
 	- [**Defining Cybersecurity**](Module%201%20-%20Defining%20Cybersecurity.md) provides an overview of key definitions and practical considerations in the field of cybersecurity
 	- [**Evolution of the Internet**](Module%202%20-%20Evolution%20of%20the%20Internet.md) dives into the history of the internet, examining how a combination of private-sector innovation and public-sector governance shaped the development of the internet
@@ -8,6 +9,6 @@
 	- [**Threat Actors: Who are the hackers?**](Module%204%20-%20Threat%20Actors.md) explores the motivations and capabilities of different types of threat actors in cyberspace
 	- [**The Hacking Process**](Module%205%20-%20The%20Hacking%20Process.md) introduces the step-by-step lifecycle of a cyber attack using the Cyber Kill Chain and the MITRE ATT&CK Framework
 	- [**End Effects**](Module%206%20-%20End%20Effects.md) explores the direct and indirect consequences of cyberattacks on individuals, organizations, and societies and introduces a taxonomy for classifying these end effects 
-
+- Ends with a course final project: applying the material learned to research a Threat Actor & prepare a slide deck
 
 
